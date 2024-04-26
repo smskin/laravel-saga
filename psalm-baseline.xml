@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="5.24.0@462c80e31c34e58cc4f750c656be3927e80e550e">
+  <file src="src/BaseSaga.php">
+    <PossiblyUnusedProperty>
+      <code><![CDATA[$app]]></code>
+    </PossiblyUnusedProperty>
+  </file>
+  <file src="src/Command/SagaCache.php">
+    <PossiblyUnusedMethod>
+      <code><![CDATA[__construct]]></code>
+      <code><![CDATA[handle]]></code>
+    </PossiblyUnusedMethod>
+  </file>
+  <file src="src/Command/SagaCacheClear.php">
+    <PossiblyUnusedMethod>
+      <code><![CDATA[__construct]]></code>
+      <code><![CDATA[handle]]></code>
+    </PossiblyUnusedMethod>
+  </file>
+  <file src="src/Contracts/IActivity.php">
+    <PossiblyUnusedMethod>
+      <code><![CDATA[__construct]]></code>
+    </PossiblyUnusedMethod>
+  </file>
+  <file src="src/Events/ESagaFinalized.php">
+    <PossiblyUnusedProperty>
+      <code><![CDATA[$sagaClass]]></code>
+    </PossiblyUnusedProperty>
+  </file>
+  <file src="src/Events/ESagaRaised.php">
+    <PossiblyUnusedProperty>
+      <code><![CDATA[$sagaClass]]></code>
+    </PossiblyUnusedProperty>
+  </file>
+  <file src="src/Example/Commands/CreateUserCommand.php">
+    <PossiblyUnusedMethod>
+      <code><![CDATA[__construct]]></code>
+    </PossiblyUnusedMethod>
+  </file>
+  <file src="src/Example/Events/ESagaExampleFinalized.php">
+    <PossiblyUnusedProperty>
+      <code><![CDATA[$id]]></code>
+    </PossiblyUnusedProperty>
+  </file>
+  <file src="src/Example/Events/EUserCreated.php">
+    <PossiblyUnusedProperty>
+      <code><![CDATA[$userId]]></code>
+    </PossiblyUnusedProperty>
+  </file>
+  <file src="src/Example/SagaExample.php">
+    <NonInvariantPropertyType>
+      <code><![CDATA[$context]]></code>
+    </NonInvariantPropertyType>
+    <UnusedClass>
+      <code><![CDATA[SagaExample]]></code>
+    </UnusedClass>
+  </file>
+  <file src="src/Example/SagaExampleContext.php">
+    <PossiblyUnusedMethod>
+      <code><![CDATA[getEmail]]></code>
+      <code><![CDATA[getUserId]]></code>
+      <code><![CDATA[setUserId]]></code>
+    </PossiblyUnusedMethod>
+  </file>
+  <file src="src/Example/UserCommandService.php">
+    <PossiblyUnusedParam>
+      <code><![CDATA[$email]]></code>
+    </PossiblyUnusedParam>
+  </file>
+  <file src="src/Models/EventListener.php">
+    <PossiblyUnusedProperty>
+      <code><![CDATA[$filter]]></code>
+    </PossiblyUnusedProperty>
+  </file>
+  <file src="src/Providers/ServiceProvider.php">
+    <UnusedClass>
+      <code><![CDATA[ServiceProvider]]></code>
+    </UnusedClass>
+  </file>
+  <file src="src/Support/DatabaseRepository/DatabaseRepository.php">
+    <UnusedClass>
+      <code><![CDATA[DatabaseRepository]]></code>
+    </UnusedClass>
+  </file>
+  <file src="src/Support/Logger.php">
+    <UnusedClass>
+      <code><![CDATA[Logger]]></code>
+    </UnusedClass>
+  </file>
+  <file src="src/Traits/SagaEventHandlerTrait.php">
+    <PossiblyUnusedMethod>
+      <code><![CDATA[handle]]></code>
+    </PossiblyUnusedMethod>
+    <PossiblyUnusedParam>
+      <code><![CDATA[$exception]]></code>
+      <code><![CDATA[$exception]]></code>
+      <code><![CDATA[$exception]]></code>
+      <code><![CDATA[$exception]]></code>
+      <code><![CDATA[$exception]]></code>
+    </PossiblyUnusedParam>
+  </file>
+</files>
